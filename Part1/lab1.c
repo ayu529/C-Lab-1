@@ -61,7 +61,8 @@ void part1() {
 
   // Q1: The following line is an example. Feel free to
   // copy and/or modify it as needed for part 1 of this lab.
-  printf("x & x = %i\n %x", x & x, &x);
+  // This line was giving a warning, changed %x to %p for pointer.
+  printf("x & x = %i\n%p\n", x & x, &x);
 }
 
 // HELPER FUNCTION - fillArray()
